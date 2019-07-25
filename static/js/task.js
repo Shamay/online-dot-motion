@@ -274,8 +274,6 @@ var stimulus = {
     // dynamically adapt trial duration to average RT of participant during block 2
     if(stimulus.data.phase == '4' && dynamic_trial_duration){
       stimulus.trial_duration = currentTrialDuration;
-    }else{
-      stimulus.trial_duration = trial_duration;
     }
   },
 
